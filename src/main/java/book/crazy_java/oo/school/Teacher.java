@@ -1,4 +1,4 @@
-package oo.school;
+package book.crazy_java.oo.school;
 
 public class Teacher implements People {
 

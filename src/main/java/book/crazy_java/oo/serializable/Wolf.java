@@ -1,4 +1,4 @@
-package oo.serializable;
+package book.crazy_java.oo.serializable;
 
 import java.io.*;
 

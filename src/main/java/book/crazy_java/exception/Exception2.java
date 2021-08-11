@@ -1,4 +1,4 @@
-package exception;
+package book.crazy_java.exception;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

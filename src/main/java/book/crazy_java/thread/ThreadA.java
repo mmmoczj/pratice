@@ -1,4 +1,4 @@
-package thread;
+package book.crazy_java.thread;
 
 public class ThreadA extends Thread {
     @Override

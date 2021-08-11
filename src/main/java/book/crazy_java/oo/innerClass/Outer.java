@@ -1,4 +1,4 @@
-package oo.innerClass;
+package book.crazy_java.oo.innerClass;
 
 public class Outer {
     private int num = 1;

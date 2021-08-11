@@ -1,4 +1,4 @@
-package thread;
+package book.crazy_java.thread;
 // 静态同步方法---监视器为class
 public class SychronizedStatic implements Runnable {
 

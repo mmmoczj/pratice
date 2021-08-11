@@ -1,4 +1,4 @@
-package thread;
+package book.crazy_java.thread;
 
 // 静态代码块与线程join的关系
 public class StaticCodeBlock {

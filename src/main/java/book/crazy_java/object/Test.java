@@ -1,4 +1,4 @@
-package object;
+package book.crazy_java.object;
 
 
 public class Test {

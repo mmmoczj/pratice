@@ -1,6 +1,6 @@
-package oo.school;
+package book.crazy_java.oo.school;
 
-import oo.serializable.Wolf;
+import book.crazy_java.oo.serializable.Wolf;
 
 public interface People {
     public void say();

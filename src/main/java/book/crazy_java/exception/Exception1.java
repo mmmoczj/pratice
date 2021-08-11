@@ -1,4 +1,4 @@
-package exception;
+package book.crazy_java.exception;
 
 public class Exception1 {
     public static int test(){

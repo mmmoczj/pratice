@@ -1,4 +1,4 @@
-package oo.cloneable;
+package book.crazy_java.oo.cloneable;
 
 import java.util.Objects;
 
