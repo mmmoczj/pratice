@@ -101,8 +101,11 @@ public class SingleLinkedList<T> {
         }
         if (index == 0) {
             addAtHeader(element);
+            return;
         }
-
+        Node prev = getNodeByIndex(index - 1);
+        prev.next = new Node(element, prev.next);
+        size++;
     }
 
     public void add(T element) {
@@ -125,11 +128,25 @@ public class SingleLinkedList<T> {
     }
 
     public T delete(int index) {
-        return null;
+        if (index < 0 || index > size - 1) {
+            throw new IndexOutOfBoundsException("线性表索引越界!");
+        }
+        Node target;
+        if (index == 0) {
+            target = header;
+            header = target.next;
+        } else {
+            Node prev = getNodeByIndex(index - 1);
+            target = prev.next;
+            prev.next = target.next;
+            target.next = null;
+        }
+        size--;
+        return target.data;
     }
 
     public T remove() {
-        return null;
+        return delete(size - 1);
     }
 
     public boolean isEmpty() {
@@ -144,7 +161,7 @@ public class SingleLinkedList<T> {
 
     public String toString() {
         if (header == null) {
-            return "";
+            return "[]";
         }
         Node current = header;
         StringBuilder sb = new StringBuilder("[");
@@ -158,7 +175,8 @@ public class SingleLinkedList<T> {
     }
 
     public static void main(String[] args) {
-        SingleLinkedList<String> list = new SingleLinkedList("a", "b", "c");
+        SingleLinkedList<String> list = new SingleLinkedList("a");
+        list.delete(0);
         System.out.println(list.toString());
     }
 }
