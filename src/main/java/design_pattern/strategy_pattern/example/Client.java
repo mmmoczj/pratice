@@ -1,8 +1,9 @@
 package design_pattern.strategy_pattern.example;
 
-import com.cynovan.neptune.open.addons.prototype.backend.bean.strategy_pattern.example.context.Price;
-import com.cynovan.neptune.open.addons.prototype.backend.bean.strategy_pattern.example.strategy.AdvancedMemberStrategy;
-import com.cynovan.neptune.open.addons.prototype.backend.bean.strategy_pattern.example.strategy.MemberStrategy;
+
+import design_pattern.strategy_pattern.example.context.Price;
+import design_pattern.strategy_pattern.example.strategy.AdvancedMemberStrategy;
+import design_pattern.strategy_pattern.example.strategy.MemberStrategy;
 
 public class Client {
     public static void main(String[] args) {

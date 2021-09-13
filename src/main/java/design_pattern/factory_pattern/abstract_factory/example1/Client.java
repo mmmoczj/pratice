@@ -1,8 +1,9 @@
 package design_pattern.factory_pattern.abstract_factory.example1;
 
-import com.cynovan.neptune.open.addons.prototype.backend.bean.factory_pattern.abstract_factory.example1.factory.AbstractFactory;
-import com.cynovan.neptune.open.addons.prototype.backend.bean.factory_pattern.abstract_factory.example1.factory.AppleFactory;
-import com.cynovan.neptune.open.addons.prototype.backend.bean.factory_pattern.abstract_factory.example1.factory.MiFactory;
+
+import design_pattern.factory_pattern.abstract_factory.example1.factory.AbstractFactory;
+import design_pattern.factory_pattern.abstract_factory.example1.factory.AppleFactory;
+import design_pattern.factory_pattern.abstract_factory.example1.factory.MiFactory;
 
 public class Client {
     public static void main(String[] args) {
